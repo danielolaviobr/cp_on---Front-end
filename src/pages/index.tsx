@@ -27,7 +27,7 @@ const Home: React.FC = () => {
   return (
     <div>
       <Head>
-        <title>Home Page</title>
+        <title>cp_on</title>
       </Head>
 
       <ContentWrapper>

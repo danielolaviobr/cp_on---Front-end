@@ -23,7 +23,7 @@ const Home: React.FC = () => {
   return (
     <div>
       <Head>
-        <title>Page: {id}</title>
+        <title>cp_on - {id}</title>
       </Head>
 
       <ContentWrapper>
