@@ -16,11 +16,11 @@ const Home: React.FC = () => {
   const [text, setText] = useState('')
   const [randomID, setRandomID] = useState('')
   const [textAreaElement, setTextAreaElement] = useState<HTMLTextAreaElement>()
-  const [copyText, setCopyText] = useState('Click to copy code')
+  const [copyText, setCopyText] = useState('Click to copy the link')
 
   function handleSendText(text: string) {
     api.post('/create', { text: text }).then(response => {
-      setRandomID(`${response.data.uid}`)
+      setRandomID(`https://cp-on.vercel.app${response.data.uid}`)
     })
   }
 
