@@ -20,6 +20,7 @@ export const TextInputArea = styled.textarea`
   resize: none;
 
   padding: 10px;
+  margin-right: 50px;
 
   outline: none;
   border: none;
