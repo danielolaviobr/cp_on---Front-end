@@ -20,7 +20,7 @@ const Home: React.FC = () => {
 
   function handleSendText(text: string) {
     api.post('/create', { text: text }).then(response => {
-      setRandomID(`https://cp-on.vercel.app${response.data.uid}`)
+      setRandomID(`https://cp-on.vercel.app/${response.data.uid}`)
     })
   }
 
@@ -46,9 +46,11 @@ const Home: React.FC = () => {
             placeholder="Click on paste to generate your code"
             ref={textarea => setTextAreaElement(textarea)}
             onClick={() => {
-              textAreaElement.select()
-              document.execCommand('copy')
-              setCopyText('Copied')
+              if (randomID !== '') {
+                textAreaElement.select()
+                document.execCommand('copy')
+                setCopyText('Copied')
+              }
             }}
           />
           <ActionButton
