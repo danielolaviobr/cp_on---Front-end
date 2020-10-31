@@ -26,13 +26,6 @@ yarn dev
 
 👤 **Daniel Olavio**
 
-* Website: http://danielolavio.com
+* Website: [http://danielolavio.com](http://danielolavio.com)
 * Github: [@danielolaviobr](https://github.com/danielolaviobr)
 * LinkedIn: [@daniel-olavio](https://linkedin.com/in/daniel-olavio)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
